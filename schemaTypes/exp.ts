@@ -34,10 +34,10 @@ export const exp = defineType({
       type: 'string',
       options: {
         list: [
-          {title: 'Full-time', value: 'full_time'},
-          {title: 'Part-time', value: 'part_time'},
-          {title: 'Contract', value: 'contract'},
-          {title: 'Freelance', value: 'freelance'},
+          {title: 'Full-time', value: 'Full Time'},
+          {title: 'Part-time', value: 'Part Time'},
+          {title: 'Contract', value: 'Contract'},
+          {title: 'Freelance', value: 'Freelance'},
         ],
       },
     }),
