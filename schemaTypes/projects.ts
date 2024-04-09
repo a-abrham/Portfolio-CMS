@@ -18,17 +18,17 @@ export const projects = defineType({
       type: 'image',
     }),
     defineField({
-      name: 'repo',
-      type: 'url',
+      name: 'Language',
+      type: 'reference',
+      to: [{type: 'language'}],
     }),
     defineField({
       name: 'link_to_project',
       type: 'url',
     }),
     defineField({
-      name: 'Language',
-      type: 'reference',
-      to: [{type: 'language'}],
+      name: 'Category',
+      type: 'string',
     }),
   ],
 })
