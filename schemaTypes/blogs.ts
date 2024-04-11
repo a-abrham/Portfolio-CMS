@@ -11,8 +11,7 @@ export const blogs = defineType({
     }),
     defineField({
       name: 'Content',
-      type: 'array',
-      of: [{ type: 'block' }],
+      type: 'string',
     }),
     defineField({
       name: 'Blog_Image',
@@ -24,9 +23,11 @@ export const blogs = defineType({
     }),
     defineField({
       name: 'Tags',
-      type: 'array',
-      of: [{ type: 'string' }],
-    }),    
-        
+      type: 'string',
+    }),
+    defineField({
+      name: 'Url',
+      type: 'url',
+    }),
   ],
 })
